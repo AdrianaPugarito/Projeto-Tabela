@@ -1,0 +1,29 @@
+*{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+/*Seletor ID*/
+#tab1{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tab1 td, #tab1 th{
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+/* nth-child e para sombrear numeros pares even ou impar odd*/
+#tab1 tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+#tab1 tr:hover{
+  background-color: rgb(236, 161, 161);
+}
+
+#tab1 th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(116, 84, 146);
+}
